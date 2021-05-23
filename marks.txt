@@ -1,0 +1,13 @@
+mark = float(input("enter the score:"))
+if mark>=0.9 and mark<=1.0:
+    print("Your Grade is A")
+elif mark>=0.8 and mark<0.9:
+    print("Your Grade is B")
+elif mark>=0.7 and mark<0.8:
+    print("Your Grade is C")
+elif mark>=0.6 and mark<0.7:
+    print("Your Grade is D")
+elif mark>=0 and mark<0.6:
+    print("Your Grade is F")
+else:
+    print("Invalid Input.")
